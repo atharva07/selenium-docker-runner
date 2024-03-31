@@ -1,7 +1,7 @@
 version: "3"
 services: 
   flight-reservation:
-    image: atharvahiwase7/flightreservationjenkins
+    image: atharvahiwase7/flightreservation
     environment:
     - BROWSER
     - HUB_HOST=hub
