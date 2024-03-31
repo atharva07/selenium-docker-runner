@@ -25,6 +25,5 @@ pipeline {
             bat "docker-compose -f test-suites.yaml down"
             archiveArtifacts artifacts: 'output/flight-reservation/emailable-report.html', followSymlinks: false
         }
-        }
     }
 }
